@@ -1,0 +1,12 @@
+//
+// Data Source definition
+//
+GithubSample = [
+    Authentication = [
+        OAuth = [
+            StartLogin = StartLogin,
+            FinishLogin = FinishLogin
+        ]
+    ],
+    Label = Extension.LoadString("DataSourceLabel")
+];
